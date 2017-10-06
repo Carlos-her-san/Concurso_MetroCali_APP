@@ -1,0 +1,40 @@
+
+<ion-content padding>
+    <div id="divTitulo">
+    <img src="../assets/img/bus.png" id="iconoM">
+    <br>
+    <br>
+    <ion-label id="titulo">¿A dónde vas?</ion-label>
+    </div>
+    <div id="divSearch">
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  </div>
+ 
+    <div id="divBottoms">
+
+      <div id="divBottom1">
+
+        <button>
+          <ion-label id="rutas">Rutas</ion-label>
+        </button>
+        
+        <button (click)="AbrirRecargas()">
+          <ion-label id="recargas" >Recargas</ion-label>
+        </button>
+        
+      </div>
+
+      <div id="divBottom2">
+        
+        
+        <button>
+            <ion-label id="destinos">Mis destinos</ion-label>
+        </button>
+          
+        <button>
+             <ion-label id="noticias">Noticias</ion-label>
+        </button>
+      </div>
+    
+    </div>
+</ion-content>
