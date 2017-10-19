@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { RecargasPage } from '../recargas/recargas';
+import { RutasPage } from '../rutas/rutas';
 
 @Component({
   selector: 'page-home',
@@ -13,7 +14,11 @@ export class HomePage {
   }
 
   AbrirRecargas(){
-    this.navCtrl.push(RecargasPage);
+    this.navCtrl.setRoot(RecargasPage);
+  }
+
+  AbrirRutas(){
+    this.navCtrl.setRoot(RutasPage);
   }
 
 }

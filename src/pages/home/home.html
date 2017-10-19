@@ -1,40 +1,28 @@
 
-<ion-content padding>
+<ion-content id="Content" padding>
     <div id="divTitulo">
-    <img src="../assets/img/bus.png" id="iconoM">
+    <img src="../www/assets/img/Logo-blanco.png" id="iconoLogo">
     <br>
     <br>
-    <ion-label id="titulo">¿A dónde vas?</ion-label>
-    </div>
-    <div id="divSearch">
-    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
-  </div>
- 
-    <div id="divBottoms">
 
-      <div id="divBottom1">
-
-        <button>
-          <ion-label id="rutas">Rutas</ion-label>
-        </button>
-        
-        <button (click)="AbrirRecargas()">
-          <ion-label id="recargas" >Recargas</ion-label>
-        </button>
-        
-      </div>
-
-      <div id="divBottom2">
-        
-        
-        <button>
-            <ion-label id="destinos">Mis destinos</ion-label>
-        </button>
-          
-        <button>
-             <ion-label id="noticias">Noticias</ion-label>
-        </button>
-      </div>
+    <img src="../www/assets/img/label.png" id="label">
+     </div>
     
-    </div>
+     
+    <ion-grid >
+        <ion-row >
+          <div id="DivBtnBus">
+            <img src="../www/assets/img/bus.png" id="iconoBus" (click)="AbrirRutas()">
+        <h1 id="rutas">RUTAS Y <br> ESTACIONES</h1>
+        
+      </div>
+      <div id="DivBtnCard">
+          <img src="../www/assets/img/card.png" id="iconoCard" (click)="AbrirRecargas()">
+        <h1 id="recargas">RECARGAS</h1> 
+      </div>
+      </ion-row>
+  
+    </ion-grid>
+  
+    
 </ion-content>

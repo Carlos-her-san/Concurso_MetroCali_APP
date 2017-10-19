@@ -57,7 +57,7 @@
                 "GEOLOCATION_USAGE_DESCRIPTION": "The app need the geolocation"
             },
             "cordova-plugin-googlemaps": {
-                "API_KEY_FOR_ANDROID": "AIzaSyDUU15kOcUQaSG-BgVEBR1-ffmD2X7PS1k",
+                "API_KEY_FOR_ANDROID": "AIzaSyAyeIUF8zSdJ9Pf3A-B8_lgRRG0aTbBh1I",
                 "API_KEY_FOR_IOS": "YOUR_IOS_API_KEY_IS_HERE"
             }
         },

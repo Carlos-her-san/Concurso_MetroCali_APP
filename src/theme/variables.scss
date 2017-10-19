@@ -40,6 +40,11 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222
 );
+$toolbar-md-title-text-color: #f4f4f4;
+$toolbar-ios-title-text-color: #f4f4f4;
+$toolbar-wp-title-text-color: #f4f4f4;
+
+
 
 
 // App iOS Variables
@@ -86,3 +91,4 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+

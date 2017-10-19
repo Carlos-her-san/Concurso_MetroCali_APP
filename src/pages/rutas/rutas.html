@@ -1,13 +1,27 @@
 <ion-header>
-    <ion-navbar>
-      <button ion-button menuToggle>
+  <ion-toolbar>
+<ion-navbar  hideBackButton="true">
+    <button ion-button menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-      <ion-title>Rutas</ion-title>
-    </ion-navbar>
-  </ion-header>
+  <ion-title >PUNTOS DE RECARGA</ion-title>
+</ion-navbar>
+</ion-toolbar>
+</ion-header>
 
 
 <ion-content padding>
-    Esto es la pagina de rutas
+  <div>
+  <input id="origin-input" class="controls" type="text"
+  placeholder="Origen">
+
+  <br>
+
+<input id="destination-input" class="controls" type="text"
+  placeholder="Destino">
+</div>
+
+
+
+<div id="map"></div>
 </ion-content>
